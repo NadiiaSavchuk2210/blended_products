@@ -1,7 +1,12 @@
-<div class="modal">
+<div class="modal" data-modal>
   <div class="modal__content">
-    <button class="modal__close-btn" type="button"></button>
-    <div class="modal-product"></div>
+    <button
+      class="modal__close-btn"
+      type="button"
+      data-modal-close
+      aria-label="Close modal"
+    ></button>
+    <div class="modal-product js-modal-product"></div>
     <div class="modal-product__actions">
       <button
         class="modal-product__btn modal-product__btn--wishlist"
